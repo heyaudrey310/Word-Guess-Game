@@ -1,0 +1,16 @@
+body    {
+    font-family: 'Righteous', cursive;
+    color: #ffffff;
+    font-size: 20px;
+}
+h1  {
+  font-family: 'Righteous', cursive;
+  color: #ffffff;  
+  text-align: center;
+  font-size: 30px;
+}
+img {
+    float: left;
+    padding: 20px;
+    justify-content: center;
+}
