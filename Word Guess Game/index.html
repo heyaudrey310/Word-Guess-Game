@@ -14,20 +14,39 @@
 </head>
 
 <body>
-    <type="text/javascript" src="C:\Users\USER\Desktop\Word Guess Game\javascript\game1.js">
-    <!-- <script type="text/javascript" src="C:\Users\USER\Desktop\Word Guess Game\javascript\game.js"></script> -->
+    <script>
+    // < !-- < script type = "text/javascript" src = "C:\Users\USER\Desktop\Word Guess Game\javascript\game.js" ></script>
+    -->
 
-        <img src="C:\Users\USER\Desktop\Word Guess Game\assets\Images\90s-clipart.jpg" alt="90s clipart" width=250px
-        height = 250px >
-            <h1><strong>Word Guess Game! 90's Style!</strong></h1>
-    </div >
-            <button>Guess a letter!</button>
-            <p>Almost!</p>
-            <p>Excellent! You've won!</p>
-            <p>Aw, sorry. Better luck next time!</p>
+    <img src="C:\Users\USER\Desktop\Word Guess Game\assets\Images\90s-clipart.jpg" alt="90s clipart" width=250px
+        height=250px>
+    <h1><strong>Word Guess Game! 90's Style!</strong></h1>
+    </div>
+    <h2 id="guessLetter">_ _ _ _ _ _ _ _ _ _ _ </h2>
+    <button>Guess a letter!</button>
+    <div>
+        <div id="scoreboard">
+            <div class="sidebar"></div>
+            <h3>Almost!
+                <span id="guessesLeft"></span>
+            </h3>
+            <!-- When user guesses correctly, a 'prompt' showing you've won -->
+            <h4>Excellent! You've won!
+                <span id="winstracker"></span>
+            </h4>
+            <!-- When user guesses incorrectly, a 'prompt' showing you've lost -->
+            <h5>Aw, sorry. Better luck next time!
+                <span id="losstracker"></span>
+            </h5>
 
-</body >
-<!-- < !-- < script type = "text/javascript" src = "C:\Users\USER\Desktop\Word Guess Game\javascript\game.js" ></script > --> 
+            <script type="text/javascript" src="./javascript/game1.js"></script>
 
+        </script>
+        </div>
+    </div>
+</body>
+<!-- < !-- < script type = "text/javascript" src = "C:\Users\USER\Desktop\Word Guess Game\javascript\game.js" ></script > -->
+<!-- Audio of the artist is supposed to play in the background
+Images of the artists are supposed to show when user guesses artist correctly -->
 
 </html>

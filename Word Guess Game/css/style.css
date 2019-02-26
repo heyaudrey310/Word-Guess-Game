@@ -2,6 +2,7 @@ body    {
     background: #010001;
     font: #e71414;
     font-display: 'Righteous', cursive;
+    width: 100%;
 
 
 }
@@ -16,9 +17,11 @@ img {
     padding: 20px;
     justify-content: center;
 }
- .p {
+h2, h3, h4, h5 {
     font-display: 'Righteous', cursive;
     color: #e71414;
-    float: left;
-
+    
+}
+.sidebar    {
+    padding: 5px;
 }
